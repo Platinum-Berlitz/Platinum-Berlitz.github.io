@@ -3,8 +3,15 @@
     font-size: 30px;
 }
 
+.flowimg {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
 .index-bd {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     }
 
     .index-bd h1 {
