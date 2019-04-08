@@ -1,0 +1,96 @@
+.navbar-phb190408 {
+    background-color: #777;
+    border-color: #777;
+  }
+  .navbar-phb190408 .navbar-brand {
+    color: #ffaaff;
+  }
+  .navbar-phb190408 .navbar-brand:hover,
+  .navbar-phb190408 .navbar-brand:focus {
+    color: #ffaaff;
+    background-color: transparent;
+  }
+  .navbar-phb190408 .navbar-text {
+    color: #ffaaff;
+  }
+  .navbar-phb190408 .navbar-nav > li > a {
+    color: #ffffff;
+  }
+  .navbar-phb190408 .navbar-nav > li > a:hover,
+  .navbar-phb190408 .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-phb190408 .navbar-nav > .active > a,
+  .navbar-phb190408 .navbar-nav > .active > a:hover,
+  .navbar-phb190408 .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #555;
+  }
+  .navbar-phb190408 .navbar-nav > .disabled > a,
+  .navbar-phb190408 .navbar-nav > .disabled > a:hover,
+  .navbar-phb190408 .navbar-nav > .disabled > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-phb190408 .navbar-toggle {
+    border-color: #cccccc;
+  }
+  .navbar-phb190408 .navbar-toggle:hover,
+  .navbar-phb190408 .navbar-toggle:focus {
+    background-color: #ffffff;
+  }
+  .navbar-phb190408 .navbar-toggle .icon-bar {
+    background-color: #ffaaff;
+  }
+  .navbar-phb190408 .navbar-collapse,
+  .navbar-phb190408 .navbar-form {
+    border-color: #ffaaff;
+  }
+  .navbar-phb190408 .navbar-nav > .open > a,
+  .navbar-phb190408 .navbar-nav > .open > a:hover,
+  .navbar-phb190408 .navbar-nav > .open > a:focus {
+    color: #ffaaff;
+    background-color: #e7e7e7;
+  }
+  @media (max-width: 767px) {
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > li > a {
+      color: #777;
+    }
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #333;
+      background-color: transparent;
+    }
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #555;
+      background-color: #e7e7e7;
+    }
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-phb190408 .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #ccc;
+      background-color: transparent;
+    }
+  }
+  .navbar-phb190408 .navbar-link {
+    color: #777;
+  }
+  .navbar-phb190408 .navbar-link:hover {
+    color: #333;
+  }
+  .navbar-phb190408 .btn-link {
+    color: #777;
+  }
+  .navbar-phb190408 .btn-link:hover,
+  .navbar-phb190408 .btn-link:focus {
+    color: #333;
+  }
+  .navbar-phb190408 .btn-link[disabled]:hover,
+  fieldset[disabled] .navbar-phb190408 .btn-link:hover,
+  .navbar-phb190408 .btn-link[disabled]:focus,
+  fieldset[disabled] .navbar-phb190408 .btn-link:focus {
+    color: #ccc;
+  }
