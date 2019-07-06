@@ -4,11 +4,11 @@
 
 # Site
 title: 蘑菇的日记本
-subtitle:
+subtitle: 理论化学/ACG/东方/Minecraft/Others...
 description: 蘑菇的日记本
 keywords:
 author: PHB
-language: zh-cn
+language: zh-CN
 timezone: UTC
 
 # URL
@@ -77,5 +77,25 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy:  
+  type: git
+  repo: https://github.com/Platinum-Berlitz/Platinum-Berlitz.github.io.git
+  branch: master
+
+# Math
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: false
